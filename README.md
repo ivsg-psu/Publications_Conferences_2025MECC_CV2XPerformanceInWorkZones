@@ -1,5 +1,5 @@
 
-# FieldDataCollection_VisualizingFieldData_PlotCV2X
+# Publications_Conferences_2025MECC_CV2XPerformanceInWorkZones
 
 <!--
 The following template is based on:
@@ -13,7 +13,7 @@ Search for this, and you will find!
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h2 align="center"> # FieldDataCollection_VisualizingFieldData_PlotCV2X
+  <h2 align="center"> Publications_Conferences_2025MECC_CV2XPerformanceInWorkZones
   </h2>
 
   <pre align="center">
@@ -21,7 +21,10 @@ Search for this, and you will find!
 </pre>
 
   <p align="center">
-    The purpose of this code is to plot CV2X data for the purposes of analyzing RSU and OBU performance. The basic goals are to assess RSU range and agreement of this with OBU measurements, assess RSU coverage areas (start and end of coverage on roads), and to assess OBU safety metrics such as velocity, lane position, location of lane changes, etc.
+    This repository serves as the official codebase corresponding to the version of the software used for the 2025 MECC publication ("Evaluating C-V2X Performance and
+Coverage in Work Zones"). 
+
+The purpose of this code is to plot CV2X data for the purposes of analyzing RSU and OBU performance. The basic goals are to assess RSU range and agreement of this with OBU measurements, assess RSU coverage areas (start and end of coverage on roads), and to assess OBU safety metrics such as velocity, lane position, location of lane changes, etc.
     <br />
   </p>
 </p>
@@ -89,6 +92,9 @@ and
 
 This repository was created to better visualize and plot the location and time data collected by the CV2X communication system. The functions in this repo can also be used to plot geometric shapes that represenat range of coverage and Autonomous Vehicle (as a rectangle).
 
+A more up-to-date repo for this project could be found: <a href="https://github.com/ivsg-psu/FieldDataCollection_VisualizingFieldData_PlotCV2X">FieldDataCollection_VisualizingFieldData_PlotCV2X Repo</a>
+
+
 <p align="right">(<a href="#fielddatacollection_visualizingfielddata_plotcv2x">Back to top</a>)</p>
 
 ***
@@ -102,7 +108,7 @@ This repository was created to better visualize and plot the location and time d
 2. Clone the repo
 
    ```sh
-   git clone https://github.com/ivsg-psu/fielddatacollection_visualizingfielddata_PlotCV2X/commits/main/
+   git clone https://github.com/ivsg-psu/Publications_Conferences_2025MECC_CV2XPerformanceInWorkZones.git
    ```
 
 3. Run the main code in the root of the folder (script_demo_plotTestTrack.m). This will download the required utilities for this code, unzip the zip files into a Utilities folder (.\Utilities), and update the MATLAB path to include the Utility locations. This install process will only occur the first time. Note: to force the install to occur again, delete the Utilities directory
@@ -433,6 +439,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Sean Brennan - <sbrennan@psu.edu>
 
-Project Link: <https://github.com/ivsg-psu/fielddatacollection_visualizingfielddata_PlotCV2X>
+Project Link: <https://github.com/ivsg-psu/Publications_Conferences_2025MECC_CV2XPerformanceInWorkZones>
 
 <p align="right">(<a href="#fielddatacollection_visualizingfielddata_plotcv2x">Back to top</a>)</p>

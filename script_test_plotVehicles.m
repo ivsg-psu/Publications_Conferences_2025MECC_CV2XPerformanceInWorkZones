@@ -185,7 +185,7 @@ assert(length(tLLA(1,:))== 4)
 assert(length(tENU(1,:))== 4)
 
 % Does the data have many rows
-Nrows_expected = 1688;
+Nrows_expected = 2817;
 assert(length(tLLA(:,1))== Nrows_expected)
 assert(length(tENU(:,1))== Nrows_expected)
 
